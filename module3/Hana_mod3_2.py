@@ -11,7 +11,7 @@ def message(text:str):
 
 
 
-
+#This code creates a FastAPI that receives a text from the URL and returns it back along with the current UTC time.
 
 
 
