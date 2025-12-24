@@ -8,7 +8,7 @@ print(today_date())
 def current_min():
     minute=datetime.datetime.now().minute
     n=2*minute
-    ####
+  
     a=0
     b=1
     results = []

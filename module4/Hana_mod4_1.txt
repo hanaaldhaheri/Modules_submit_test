@@ -1,0 +1,4 @@
+SQL known as (Structured Query Language) is a standard programming language for managing and handling relational databases.
+It lets users create, read, update, and delete data in database tables. Users can also change database structures.
+SQL is popular for retrieving data efficiently, keeping it consistent, and handling large amounts of information.
+IBM researchers Donald D. Chamberlin and Raymond F. Boyce developed it in the early 1970s. It was initially named SEQUEL.
