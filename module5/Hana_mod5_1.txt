@@ -1,0 +1,31 @@
+AI is a broad field of computer science where machines are designed to perform tasks that normally require human intelligence.
+
+An LLM stands for Large Language Model  is a type of AI that is trained to understand and generate human language.
+
+Model size usually refers to the number of parameters in the model.
+Parameters are the learned numbers inside the model that store what it has learned from 
+data (language patterns, meaning, grammar, etc.).Model size = parameter count.
+parameters are the learned numerical values inside a Large Language Model that determine how it behaves. 
+such as:Numbers,stored in the neural network,learned during training, and how grammar works.
+
+A token is a text unit that the LLM processes for read and write operations. The process of text segmentation into tokens is called tokenization.
+The input text is provided to the tokenizer,The text is divided into subwords,The token is assigned a number (ID),The model works on these numbers.
+
+
+Model fine-tuning is the process of slightly adjusting a pretrained model’s parameters so it performs better on a specific task without changing its size or structure.
+Prompt engineering tells the model what to do; fine-tuning teaches the model how to behave.
+
+Embeddings turn text into numbers that preserve meaning, allowing models to understand, compare, and retrieve information.
+The context window is the LLM’s short-term memory, and it determines how much code, instructions,
+ or conversation the model can understand at once—making it critical for coding and complex tasks.
+
+LLM hallucinations are confident but incorrect outputs, and they exist because LLMs predict language patterns rather than truly understanding or verifying facts.
+LLMs interact with computers through tools and APIs, and RAG lets them answer questions using real, external information instead of guessing.
+
+Top 3 frameworks to start coding with LLMs:
+
+LangChain – Best for general LLM apps, workflows, chatbots, and multi-step tasks. Easy for beginners.
+
+LlamaIndex – Best for connecting your own data to LLMs (RAG applications). Great for knowledge assistants.
+
+Haystack / Deepset – Best for production-ready search and RAG pipelines. Modular and scalable.
