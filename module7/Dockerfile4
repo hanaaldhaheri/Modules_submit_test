@@ -1,0 +1,31 @@
+FROM python:3.12-slim
+
+WORKDIR /app
+
+COPY Hana_mod7_4.py .
+
+CMD ["python", "Hana_mod7_4.py"]
+
+
+
+
+
+
+
+
+# RUN IN TERMINAL :
+# docker buildx build --load -f Dockerfile4 -t hana_ex4:1.0.0 .
+
+# to save my image:
+# docker save hana_ex4:1.0.0 -o hana_ex4.tar
+
+
+
+
+
+
+
+
+
+
+
